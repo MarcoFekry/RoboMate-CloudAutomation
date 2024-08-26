@@ -8,6 +8,12 @@ Developed by Multi-Cloud Consultant /Marco Fekry
 
 Contact me MarcoFekry@hotmail.com
 
+Prerequisites:
+--------------
+1- Windows 10 / Windows 11
+
+2- Administrator permissions
+
 Installation:
 ------------
 1- Download the RoboMate-Installer.zip file

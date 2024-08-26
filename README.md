@@ -33,4 +33,4 @@ Installation:
 
 5- The installation wizard will guide you to complete the installation
 
-5- Complete the installation Wizard
+6- Complete the installation Wizard

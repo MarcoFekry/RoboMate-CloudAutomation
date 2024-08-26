@@ -1,5 +1,9 @@
 ![Demo Image](./RoboMate-Logo.png) 
 
+<p align="center">
+  <img src="./RoboMate-Logo.png" alt="Demo Image" />
+</p>
+
 RoboMate Cloud Automation                  
 
 A magnified powerful Assessment and Automation tool with a friendly user interface to enhance your Cloud productivity and achieve your goals effortlessly

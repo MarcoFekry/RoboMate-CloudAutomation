@@ -1,4 +1,4 @@
-RoboMate Cloud Automation                   ![Demo Image](./RoboMate-Logo.png)
+![Demo Image](./RoboMate-Logo.png) RoboMate Cloud Automation                  
 
 A magnified powerful Assessment and Automation tool with a friendly user interface to enhance your Cloud productivity and achieve your goals effortlessly
 

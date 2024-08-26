@@ -6,7 +6,7 @@ RoboMate Cloud Automation supports Microsoft Azure, Amazon Web Services, Oracle 
 
 Developed by Multi-Cloud Consultant /Marco Fekry
 
-Contact me MarcoFekry@hotmail.com
+Contact me MarcoFekry@hotmail.com for a trial license
 
 Prerequisites:
 --------------

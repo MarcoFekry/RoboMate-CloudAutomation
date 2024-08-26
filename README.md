@@ -1,6 +1,10 @@
 RoboMate Cloud Automation
+
+A magnified powerful tool with a friendly user interface to enhance your Cloud productivity and achieve your goals effortlessly
+
 Developed by Multi-Cloud Consultant /Marco Fekry
-MarcoFekry@hotmai.com
+
+Contact me MarcoFekry@hotmail.com
 
 Installation:
 ------------
@@ -11,5 +15,7 @@ Installation:
 3- Run RoboMateInstall.exe
 
 4- Add your RoboMate Cloud Automation License
+
+5- The installation Wizard will guide you to complete the installation
 
 5- Complete the installation Wizard

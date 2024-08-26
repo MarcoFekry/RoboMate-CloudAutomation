@@ -31,6 +31,6 @@ Installation:
 
 4- Add your RoboMate Cloud Automation License
 
-5- The installation Wizard will guide you to complete the installation
+5- The installation wizard will guide you to complete the installation
 
 5- Complete the installation Wizard

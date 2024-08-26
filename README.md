@@ -9,7 +9,7 @@ RoboMate Cloud Automation
 A magnified powerful Assessment and Automation AI tool with a friendly user interface to enhance your Cloud productivity and achieve your goals effortlessly
 
 
-RoboMate Cloud Automation supports Microsoft Azure, Amazon Web Services, Oracle Cloud Infrastructure, and Microsoft Office 365  focusing on reliability, security, cost, and performance. It's an essential tool for solution architects to streamline Azure infrastructure.
+RoboMate Cloud Automation supports Microsoft Azure, Amazon Web Services, Oracle Cloud Infrastructure, and Microsoft Office 365  focusing on reliability, security, cost, and performance. It's an essential tool for solution architects to streamline the cloud infrastructure.
 
 Developed by Multi-Cloud Consultant /Marco Fekry
 

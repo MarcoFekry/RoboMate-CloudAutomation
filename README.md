@@ -17,9 +17,9 @@ One of the key advantages of RoboMate Cloud Automation is its focus on reliabili
 
 RoboMate Cloud Automation also prioritizes security. It incorporates advanced encryption techniques and robust authentication mechanisms to safeguard sensitive data and protect against unauthorized access. With RoboMate Cloud Automation's built-in security features, architects can rest assured that their Cloud workloads are protected from potential threats and vulnerabilities. 
 
-Cost optimization is another area where RoboMate Cloud Automation excels. Its frameworks provide architects with valuable insights and recommendations to help them optimize their resource allocation and avoid unnecessary expenses. By leveraging advanced algorithms and predictive analytics, RoboMate Cloud Automation identifies potential cost-saving opportunities, allowing architects to make informed choices and maximize their return on investment. 
+Cost optimization is another area in which RoboMate Cloud Automation excels. Its frameworks provide architects with valuable insights and recommendations to help them optimize their resource allocation and avoid unnecessary expenses. By leveraging advanced algorithms and predictive analytics, RoboMate Cloud Automation identifies potential cost-saving opportunities, allowing architects to make informed choices and maximize their return on investment. 
 
-Performance is a crucial aspect of any workload, and RoboMate Cloud Automation ensures that cloud workloads perform at their best. Its frameworks monitor resource utilization, identify bottlenecks, and recommend optimization strategies. By implementing these recommendations, architects can maximize the performance of their applications, resulting in faster response times and improved end-user experience.
+Performance is crucial to any workload, and RoboMate Cloud Automation ensures that cloud workloads perform at their best. Its frameworks monitor resource utilization, identify bottlenecks, and recommend optimization strategies. By implementing these recommendations, architects can maximize the performance of their applications, resulting in faster response times and improved end-user experience.
 
 
 RoboMate Cloud Automation supports Microsoft Azure, Amazon Web Services, Oracle Cloud Infrastructure, and Microsoft Office 365 focusing on reliability, availability, security, cost, and performance. 
@@ -27,7 +27,7 @@ RoboMate Cloud Automation supports Microsoft Azure, Amazon Web Services, Oracle 
 
 Prerequisites:
 --------------
-1- Windows 10 / Windows 11
+1- Windows 10 / Windows 11 / Windows Server 2022
 
 2- Local Administrator permissions
 

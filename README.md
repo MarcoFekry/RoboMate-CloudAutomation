@@ -25,17 +25,19 @@ Performance is crucial to any workload, and RoboMate Cloud Automation ensures th
 RoboMate Cloud Automation supports Microsoft Azure, Amazon Web Services, Oracle Cloud Infrastructure, and Microsoft Office 365 focusing on reliability, availability, security, cost, and performance. 
 
 
+OS Requirements:
+--------------
+1- Windows 10 / Windows 11 / Windows Server 2022
+
 HW Requirements:
 --------------
-1- OS: Windows 10 / Windows 11 / Windows Server 2022
+1- CPU: 4 Cores
 
-2- CPU: 4 Cores
+2- Memory: 8 GB
 
-3- Memory: 8 GB
+3- Storage: 2 GB
 
-4- Storage: 2 GB
-
-5- Display Scaling of 100%
+4- Display Scaling of 100%
 
 Prerequisites:
 --------------

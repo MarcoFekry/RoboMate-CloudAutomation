@@ -2,9 +2,7 @@
   <img src="./RoboMate-Logo.png" alt="Demo Image" />
 </p>
 
-<p align="center">
-RoboMate Cloud Automation                  
-</p>
+<h1 align="center"><strong>RoboMate Cloud Automation</strong></h1>
 
 Developed by Multi-Cloud Consultant /Marco Fekry
 

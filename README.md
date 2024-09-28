@@ -14,11 +14,13 @@ Build an inventory of your cloud infrastructure assets.
 
 Control your resource usage and gain visibility across all used services for maximum cost-effectiveness.
 
-Detect potential vulnerabilities that could put your cloud environment at risk.
+Detect potential vulnerabilities that could put your cloud environment at risk using a lot of security cloud standards.
+
+Use RoboMate Cloud Automation built-in reports to gain visibility over all Cloud aspects
 
 Get a deep understanding of how you spend on AWS, Azure, and OCI.
 
-Just like an expert ,use any of the RoboMate Cloud Automation profiles and converts hours to minutes to build, develop, and secure the cloud environments 
+Just like an expert , Use any of the RoboMate Cloud Automation profiles and convert hours to minutes to build, develop, and secure the cloud environments.
 
 Introduction
 ------------

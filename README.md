@@ -48,12 +48,21 @@ RoboMate Cloud Automation supports Microsoft Azure, Amazon Web Services, Oracle 
 
 Who is using it?
 --------------
-RoboMate Cloud Automation was built with every Cloud Engineer, Developer, DevOps engineer and SRE in mind. We understand that tackling cost savings, security improvements and resource usage analyse efforts can be hard, sometimes just knowing where to start, can be the most challenging part at times. RoboMate Cloud Automation is here to help those cloud practitioners see their cloud resources and accounts much more clearly. Only with clear insight can timely and efficient actions take place with maximum automation deployments which can be to any of your customers. 
+RoboMate Cloud Automation was built for every Cloud Engineer, Developer, DevOps engineer, and SRE in mind. We understand that tackling cost savings, security improvements and resource usage analysis efforts can be hard, sometimes just knowing where to start, can be the most challenging part at times. RoboMate Cloud Automation is here to help those cloud practitioners see their cloud resources and accounts much more clearly. Only with clear insight can timely and efficient actions take place with maximum automation deployments which can be done to any of your customers. 
 
 
-## Video Demo
-[RoboMate Cloud Automation Azure Assessments]([https://example.com](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMat-Azure-Assessment-Video-1.mp4))
+## Demo Videos
+[RoboMate Cloud Automation Azure Assessments](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMat-Azure-Assessment-Video-1.mp4)
 
+[RoboMate Cloud Automation AWS Assessments](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMat-AWS-Assessment-Video-1.mp4)
+
+[RoboMate Cloud Automation OCI Assessments](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMat-OCI-Assessment-Video-1.mp4)
+
+[RoboMate Cloud Automation Azure Automations](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMate-Azure-Automation.mp4)
+
+[RoboMate Cloud Automation AWS Automations](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMate-AWS-Automation.mp4)
+
+[RoboMate Cloud Automation OCI Automations](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMate-OCI-Automation.mp4)
 
 OS Requirements
 --------------

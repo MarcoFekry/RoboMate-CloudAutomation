@@ -82,7 +82,7 @@ Prerequisites
 
 2- RoboMate Cloud Automation License ( Contact me at MarcoFekry@hotmail.com for a trial license )
 
-Getting started
+Getting Started
 ------------
 1- Download the RoboMate-Installer.zip file
 

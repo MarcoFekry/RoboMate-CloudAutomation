@@ -31,6 +31,10 @@ RoboMate Cloud Automation supports Microsoft Azure, Amazon Web Services, Oracle 
 </p>
 
 
+Who is using it?
+--------------
+RoboMate Cloud Automation was built with every Cloud Engineer, Developer, DevOps engineer and SRE in mind. We understand that tackling cost savings, security improvements and resource usage analyse efforts can be hard, sometimes just knowing where to start, can be the most challenging part at times. RoboMate Cloud Automation is here to help those cloud practitioners see their cloud resources and accounts much more clearly. Only with clear insight can timely and efficient actions take place with maximum automation deployments which can be to any of your customers. 
+
 OS Requirements:
 --------------
 1- Windows 10 / Windows 11 / Windows Server 2022

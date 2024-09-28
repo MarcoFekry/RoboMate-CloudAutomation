@@ -52,15 +52,15 @@ RoboMate Cloud Automation was built for every Cloud Engineer, Developer, DevOps 
 ## Demo Videos
 [RoboMate Cloud Automation Azure Assessments](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMate-Azure-Assessment-Video-1.mp4)
 
-[RoboMate Cloud Automation AWS Assessments](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMate-AWS-Assessment-Video-1.mp4)
+[RoboMate Cloud Automation AWS Assessments](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/Demo%20Videos/RoboMat-AWS-Assessment-Video-1.mp4)
 
-[RoboMate Cloud Automation OCI Assessments](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMate-OCI-Assessment-Video-1.mp4)
+[RoboMate Cloud Automation OCI Assessments](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/Demo%20Videos/RoboMat%20OCI%20Assessment-Video-1.mp4)
 
-[RoboMate Cloud Automation Azure Automations](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMate-Azure-Automation.mp4)
+[RoboMate Cloud Automation Azure Automations](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/Demo%20Videos/RoboMate-Azure-Automation.mp4)
 
-[RoboMate Cloud Automation AWS Automations](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMate-AWS-Automation.mp4)
+[RoboMate Cloud Automation AWS Automations](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/Demo%20Videos/RoboMat-AWS%20Automation.mp4)
 
-[RoboMate Cloud Automation OCI Automations](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMate-OCI-Automation.mp4)
+[RoboMate Cloud Automation OCI Automations](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/Demo%20Videos/RoboMat-OCI%20Automation.mp4)
 
 OS Requirements
 --------------

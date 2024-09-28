@@ -16,7 +16,7 @@ Control your resource usage and gain visibility across all used services for max
 
 Detect potential vulnerabilities that could put your cloud environment at risk using a lot of security cloud standards.
 
-Use RoboMate Cloud Automation built-in reports to gain visibility over all Cloud aspects
+Use RoboMate Cloud Automation built-in reports to gain visibility over all Cloud aspects.
 
 Get a deep understanding of how you spend on AWS, Azure, and OCI.
 

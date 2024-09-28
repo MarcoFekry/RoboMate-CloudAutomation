@@ -8,7 +8,22 @@ RoboMate Cloud Automation
 
 Developed by Multi-Cloud Consultant /Marco Fekry
 
+What is RoboMate Cloud Automation? 
+--------------
+RoboMate Cloud Automation is a project created to analyze and manage cloud cost, usage, security, and governance all in one place. With RoboMate Cloud Automation you can also:
 
+Build an inventory of your cloud infrastructure assets.
+
+Control your resource usage and gain visibility across all used services for maximum cost-effectiveness.
+
+Detect potential vulnerabilities that could put your cloud environment at risk.
+
+Get a deep understanding of how you spend on AWS, Azure, and OCI.
+
+Just like an expert ,use any of the RoboMate Cloud Automation profiles and converts hours to minutes to build, develop, and secure the cloud environments 
+
+Introduction
+------------
 A magnified powerful Assessment and Automation AI tool with a friendly user interface to enhance your Cloud productivity and achieve your goals effortlessly
 
 RoboMate Cloud Automation is a cutting-edge solution offering architects comprehensive tools and algorithms to optimize their Cloud workloads. It employs a robust set of frameworks that aid in the effective management of various Cloud services. By leveraging these frameworks, architects can streamline their operations, ensuring reliability and security, while optimizing costs and improving overall performance. 
@@ -35,11 +50,16 @@ Who is using it?
 --------------
 RoboMate Cloud Automation was built with every Cloud Engineer, Developer, DevOps engineer and SRE in mind. We understand that tackling cost savings, security improvements and resource usage analyse efforts can be hard, sometimes just knowing where to start, can be the most challenging part at times. RoboMate Cloud Automation is here to help those cloud practitioners see their cloud resources and accounts much more clearly. Only with clear insight can timely and efficient actions take place with maximum automation deployments which can be to any of your customers. 
 
-OS Requirements:
+
+## Video Demo
+[RoboMate Cloud Automation Azure Assessments]([https://example.com](https://github.com/MarcoFekry/RoboMate-CloudAutomation/blob/main/RoboMat-Azure-Assessment-Video-1.mp4))
+
+
+OS Requirements
 --------------
 1- Windows 10 / Windows 11 / Windows Server 2022
 
-HW Requirements:
+HW Requirements
 --------------
 1- CPU: 4 Cores
 
@@ -49,13 +69,13 @@ HW Requirements:
 
 4- Display Scaling of 100%
 
-Prerequisites:
+Prerequisites
 --------------
 1- Local Administrator permissions
 
 2- RoboMate Cloud Automation License ( Contact me at MarcoFekry@hotmail.com for a trial license )
 
-Installation:
+Getting started
 ------------
 1- Download the RoboMate-Installer.zip file
 

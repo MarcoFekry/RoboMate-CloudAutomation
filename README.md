@@ -54,7 +54,7 @@ RoboMate Cloud Automation was built for every Cloud Engineer, Developer, DevOps 
 ## Demo Videos
 [RoboMate Cloud Automation Azure Assessments](https://1drv.ms/v/s!Agmd1-sdw98kkr9e3COJsfF5QYvxLQ?e=vOWIaf)
 
-[RoboMate Cloud Automation AWS Assessments](https://1drv.ms/v/s!Agmd1-sdw98kkuo4O4q_cbkpSkphWg?e=hjjctQ)
+[RoboMate Cloud Automation AWS Assessments](https://1drv.ms/v/s!Agmd1-sdw98kkuo2IHx0smvIq-bofA?e=2CCS12)
 
 [RoboMate Cloud Automation OCI Assessments](https://1drv.ms/v/s!Agmd1-sdw98kkuo3ljhDDYIDfGW0cQ?e=iJDbrY)
 

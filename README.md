@@ -39,7 +39,9 @@ Performance is crucial for any workload, and RoboMate ensures cloud applications
 RoboMate Cloud Automation supports major platforms, including Microsoft Azure, Amazon Web Services, Oracle Cloud Infrastructure, and Microsoft Office 365, with a strong emphasis on reliability, availability, security, cost, and performance.
 
 
-
+<p align="center">
+  <img src="./Presentations/RoboMate-1.jpg" alt="Demoo Image" />
+</p>
 
 
 Who is using it?

@@ -40,9 +40,6 @@ RoboMate Cloud Automation supports major platforms, including Microsoft Azure, A
 
 
 
-<p align="center">
-  <img src="./Presentations/RoboMate-1.jpg" alt="Demo Image" />
-</p>
 
 
 Who is using it?

@@ -62,12 +62,11 @@ Use RoboMate Cloud Automation assessments for Azure, AWS, or OCI and Get a wide 
    
    E- RoboMate Security Reports.
 
-[RoboMate Cloud Automation Azure Assessments](https://1drv.ms/v/s!Agmd1-sdw98kkr9e3COJsfF5QYvxLQ?e=vOWIaf)
+[RoboMate Cloud Automation Azure Assessments](https://1drv.ms/v/s!Agmd1-sdw98kk4FIInyWP1GVt33f6A?e=PUBhlu)
 
-[RoboMate Cloud Automation AWS Assessments](https://1drv.ms/v/s!Agmd1-sdw98kkuo2IHx0smvIq-bofA?e=2CCS12)
+[RoboMate Cloud Automation AWS Assessments](https://1drv.ms/v/s!Agmd1-sdw98kk4FLgoIuewIRb9YmjQ?e=d33Bch)
 
-[RoboMate Cloud Automation OCI Assessments](https://1drv.ms/v/s!Agmd1-sdw98kkuo3ljhDDYIDfGW0cQ?e=iJDbrY)
-
+[RoboMate Cloud Automation OCI Assessments](https://1drv.ms/v/s!Agmd1-sdw98kk4FHOfF9AqjFo8qMPw?e=UlG3Q4)
 
 
 RoboMate Cloud Automation - Automation Profile
@@ -84,11 +83,11 @@ Use RoboMate Cloud Automation for Azure, AWS, or OCI and Get a wide range of aut
    
    E- Security hardening deployment plan offered to harden the cloud environment using the cloud-native security frameworks.
 
-[RoboMate Cloud Automation Azure Automations](https://1drv.ms/v/s!Agmd1-sdw98kkq93VW0E5XJoC_dNQA?e=1dFT2e)
+[RoboMate Cloud Automation Azure Automations](https://1drv.ms/v/s!Agmd1-sdw98kk4FJGInPdIarxgVzUw?e=31foRv)
 
-[RoboMate Cloud Automation AWS Automations](https://1drv.ms/v/s!Agmd1-sdw98kkuo4O4q_cbkpSkphWg?e=bMGqeJ)
+[RoboMate Cloud Automation AWS Automations](https://1drv.ms/v/s!Agmd1-sdw98kk4FKOGoTC12RJKc8Cw?e=rC5I7B)
 
-[RoboMate Cloud Automation OCI Automations](https://1drv.ms/v/s!Agmd1-sdw98kkuo5rm4u1X9n9qifIg?e=A9USNQ)
+[RoboMate Cloud Automation OCI Automations](https://1drv.ms/v/s!Agmd1-sdw98kk4FGzNQs8WWTla4fSQ?e=MTpsG8)
 
 
 

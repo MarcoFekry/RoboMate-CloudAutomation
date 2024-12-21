@@ -74,6 +74,11 @@ Use RoboMate Cloud Automation assessments for Azure, AWS, or OCI and Get a wide 
 
    G- Entra ID / Office 365 CISA Security Reports.
 
+
+
+
+Watch the RoboMate Cloud Automation Assessments Quick Demos below
+
 [RoboMate Cloud Automation Azure Assessments](https://1drv.ms/v/s!Agmd1-sdw98kk4FIInyWP1GVt33f6A?e=PUBhlu)
 
 [RoboMate Cloud Automation AWS Assessments](https://1drv.ms/v/s!Agmd1-sdw98kk4FLgoIuewIRb9YmjQ?e=d33Bch)
@@ -94,6 +99,11 @@ Use RoboMate Cloud Automation for Azure, AWS, or OCI and Get a wide range of aut
    D- Migration of resources across the same cloud providers.
    
    E- Security hardening deployment plan offered to harden the cloud environment using the cloud-native security frameworks.
+
+
+
+
+Watch the RoboMate Cloud Automation Quick Automation Demos below
 
 [RoboMate Cloud Automation Azure Automations](https://1drv.ms/v/s!Agmd1-sdw98kk4FJGInPdIarxgVzUw?e=31foRv)
 

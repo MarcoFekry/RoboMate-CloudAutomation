@@ -70,6 +70,10 @@ Use RoboMate Cloud Automation assessments for Azure, AWS, or OCI and Get a wide 
    
    E- RoboMate Security Reports.
 
+   F- Entra ID / Office 365 Security and Compliance Reports.
+
+   G- Entra ID / Office 365 CISA Security Reports.
+
 [RoboMate Cloud Automation Azure Assessments](https://1drv.ms/v/s!Agmd1-sdw98kk4FIInyWP1GVt33f6A?e=PUBhlu)
 
 [RoboMate Cloud Automation AWS Assessments](https://1drv.ms/v/s!Agmd1-sdw98kk4FLgoIuewIRb9YmjQ?e=d33Bch)

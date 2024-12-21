@@ -6,6 +6,14 @@
 
 Developed by Multi-Cloud Consultant /Marco Fekry
 
+
+<p align="center">
+  <img src="./Presentations/Providers-Azure.png" alt="Image 1" width="150" style="margin: 10px;">
+  <img src="./Presentations/Providers-OCI.png" alt="Image 2" width="150" style="margin: 10px;">
+  <img src="./Presentations/Providers-AWS.png" alt="Image 3" width="150" style="margin: 10px;">
+  <img src="./Presentations/Providers-O365.png" alt="Image 4" width="150" style="margin: 10px;">
+</p>
+
 What is RoboMate Cloud Automation? 
 --------------
 RoboMate Cloud Automation is a project created to analyze and manage cloud cost, usage, security, and governance all in one place. With RoboMate Cloud Automation you can also:

@@ -113,6 +113,11 @@ Watch the RoboMate Cloud Automation Quick Automation Demos below
 
 
 
+Request Your Assessment
+--------------------------
+
+[Request RoboMate Cloud Automation Assessment Now](https://www.upwork.com/services/product/development-it-robomate-cloud-automation-azure-aws-oci-cloud-assessment-1871810840126699900?ref=project_share&tier=1&mbp-open=1)
+
 
 OS Requirements
 --------------
@@ -147,11 +152,5 @@ Getting Started
 5- The installation wizard will guide you to complete the installation
 
 6- Complete the installation Wizard
-
-
-Request Your Assessment
---------------------------
-
-[Request RoboMate Cloud Automation Assessment Now](https://www.upwork.com/services/product/development-it-robomate-cloud-automation-azure-aws-oci-cloud-assessment-1871810840126699900?ref=project_share&tier=1&mbp-open=1)
 
 

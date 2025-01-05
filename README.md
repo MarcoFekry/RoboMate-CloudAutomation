@@ -121,7 +121,7 @@ Request Your Assessment
 
 OS Requirements
 --------------
-1- Windows 10 / Windows 11 / Windows Server 2022
+1- Windows 10 / Windows 11 / Windows Server 2019 / Windows Server 2022 and Windows Server 2025
 
 HW Requirements
 --------------

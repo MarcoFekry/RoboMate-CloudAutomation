@@ -16,7 +16,7 @@ Developed by Multi-Cloud Consultant /Marco Fekry
 
 What is RoboMate Cloud Automation? 
 --------------
-RoboMate Cloud Automation is a project created to analyze and manage cloud cost, usage, security, and governance all in one place. With RoboMate Cloud Automation you can also:
+RoboMate Cloud Automation is a project created to analyze and manage cloud cost, usage, security, and governance all in one place. With RoboMate Cloud Automation, you can also:
 
 Build an inventory of your cloud infrastructure assets.
 
@@ -148,7 +148,7 @@ Prerequisites
 --------------
 1- Local Administrator permissions
 
-2- RoboMate Cloud Automation License ( Contact me at MarcoFekry@hotmail.com for a trial license )
+2- RoboMate Cloud Automation License ( Contact us at info@robomatecloud.com or visit our website [RoboMate Cloud Automation](https://www.robomatecloud.com)  for a trial license )
 
 Getting Started
 ------------

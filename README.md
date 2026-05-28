@@ -48,19 +48,19 @@ RoboMate Cloud Automation supports major platforms, including Microsoft Azure, A
 
 
 <p align="center">
-  <img src="./Presentations/RoboMate_AZ.jpg" alt="Demoo Image" />
+  <img src="./Presentations/RoboMate_AZ1.jpg" alt="Demoo Image" />
 </p>
 
 <p align="center">
-  <img src="./Presentations/RoboMate_AWS.jpg" alt="Demoo Image" />
+  <img src="./Presentations/RoboMate_AWS1.jpg" alt="Demoo Image" />
 </p>
 
 <p align="center">
-  <img src="./Presentations/RoboMate_OCI.jpg" alt="Demoo Image" />
+  <img src="./Presentations/RoboMate_OCI1.jpg" alt="Demoo Image" />
 </p>
 
 <p align="center">
-  <img src="./Presentations/RoboMate_O365.jpg" alt="Demoo Image" />
+  <img src="./Presentations/RoboMate_O3651.jpg" alt="Demoo Image" />
 </p>
 
 Who is using it?

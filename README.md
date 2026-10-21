@@ -1,171 +1,197 @@
-<p align="center">
-  <img src="./Presentations/RoboMateicon.png" alt="Demo Image" width="220" />
+ <p align="center">
+  <img src="./Presentations/RoboMateicon.png" alt="RoboMate Cloud Automation Logo" width="180" />
 </p>
 
 <h1 align="center"><strong>RoboMate Cloud Automation</strong></h1>
 
-Developed by Multi-Cloud Consultant /Marco Fekry
-
-
 <p align="center">
-  <img src="./Presentations/RBM_CloudProviders.jfif" alt="Image 1" width="1100" height="120" style="margin: 10px;">
-</p>
-
-What is RoboMate Cloud Automation? 
---------------
-RoboMate Cloud Automation is a project created to analyze and manage cloud cost, usage, security, and governance all in one place. With RoboMate Cloud Automation, you can also:
-
-Build an inventory of your cloud infrastructure assets.
-
-Control your resource usage and gain visibility across all used services for maximum cost-effectiveness.
-
-Detect potential vulnerabilities that could put your cloud environment at risk using a lot of security cloud standards.
-
-Use RoboMate Cloud Automation built-in reports to gain visibility over all Cloud aspects.
-
-Get a deep understanding of how you spend on  Azure, AWS, GCP, Huawei, and OCI.
-
-Just like an expert, Use any of the RoboMate Cloud Automation profiles and convert hours to minutes to build, develop, and secure the cloud environments.
-
-Introduction
-------------
-RoboMate Cloud Automation is a powerful AI-driven assessment and automation tool designed to enhance cloud productivity and help you achieve your goals effortlessly. Featuring a user-friendly interface, RoboMate equips architects with comprehensive tools and algorithms to optimize their cloud workloads.
- 
-This cutting-edge solution employs robust frameworks that effectively manage various cloud services. By leveraging these frameworks, architects can streamline their operations, ensuring reliability and security while optimizing costs and enhancing overall performance.
- 
-One of the standout advantages of RoboMate Cloud Automation is its focus on reliability. Through intelligent monitoring and automation, RoboMate Cloud Automation continuously oversees cloud resources, swiftly detecting and resolving any issues that arise. This proactive approach ensures that applications hosted in the cloud remain available and perform optimally, significantly reducing the risk of downtime and minimizing disruptions.
- 
-Security is another priority for RoboMate Cloud Automation. The tool incorporates advanced encryption techniques and robust authentication mechanisms to safeguard sensitive data and protect against unauthorized access. With its built-in security features, architects can be confident that their cloud workloads are shielded from potential threats and vulnerabilities.
- 
-Cost optimization is an area where RoboMate Cloud Automation truly excels. Its frameworks provide architects with valuable insights and recommendations to help optimize resource allocation and avoid unnecessary expenses. By leveraging advanced algorithms and predictive analytics, RoboMate identifies potential cost-saving opportunities, enabling architects to make informed decisions and maximize their return on investment.
- 
-Performance is crucial for any workload, and RoboMate ensures cloud applications operate at their best. Its frameworks monitor resource utilization, identify bottlenecks, and recommend optimization strategies. By implementing these recommendations, architects can enhance application performance, resulting in faster response times and improved end-user experiences.
- 
-RoboMate Cloud Automation supports major platforms, including Microsoft Azure, Amazon Web Services, Google Cloud, Huawei Cloud, Oracle Cloud Infrastructure, and Microsoft Office 365, with a strong emphasis on reliability, availability, security, cost, and performance.
-
-
-<p align="center">
-  <img src="./Presentations/AZ1.png" alt="Demoo Image" />
+  <strong>Multi-Cloud Assessment, Security, Optimization & Automation</strong>
 </p>
 
 <p align="center">
-  <img src="./Presentations/AZ2.png" alt="Demoo Image" />
+  Developed by <strong>Marco Fekry</strong> | Multi-Cloud Consultant
 </p>
 
 <p align="center">
-  <img src="./Presentations/AWS2.png" alt="Demoo Image" />
+  <a href="https://www.robomatecloud.com">Official Website</a> |
+  <a href="https://linkedin.com/company/robomate-cloud-automation">LinkedIn</a> |
+  <a href="https://github.com/MarcoFekry/RoboMate-CloudAutomation">GitHub</a>
 </p>
 
 <p align="center">
-  <img src="./Presentations/GCP2.png" alt="Demoo Image" />
+  <img src="./Presentations/RBM_CloudProviders.jfif" alt="Supported Cloud Platforms" width="1000" height="120" />
+</p>
+
+# Overview
+
+RoboMate Cloud Automation is an integrated cloud engineering solution designed to simplify infrastructure assessment, improve security, optimize cloud expenditure, and accelerate technical delivery across multi-cloud environments.
+
+Combining assessment profiles, automation workflows, reporting, and RoboMate Tools, the platform helps cloud professionals reduce repetitive engineering tasks and deliver consistent, insight-driven results.
+
+**Key capabilities include:**
+
+- **Cloud Assessment:** Infrastructure inventory, configuration analysis, security reviews, and business continuity assessments.
+- **Cost Optimization:** Resource utilization analysis and identification of potential cost-saving opportunities.
+- **Security and Governance:** Assessment against supported cloud security standards and frameworks.
+- **Cloud Automation:** Infrastructure deployment, landing zones, monitoring, auditing, migration, and security hardening.
+- **Presales Automation:** Support for preparing customer-specific technical scopes of work using RoboMate Tools.
+- **Microsoft Security:** Supported Microsoft Entra ID and Microsoft 365 security and compliance assessments.
+
+## Supported Platforms
+
+RoboMate supports assessment and automation scenarios across the following platforms, depending on the selected module and available capabilities:
+
+- Microsoft Azure
+- Amazon Web Services (AWS)
+- Google Cloud Platform (GCP)
+- Huawei Cloud
+- Oracle Cloud Infrastructure (OCI)
+- Microsoft Entra ID and Microsoft Office 365
+
+<p align="center">
+  <img src="./Presentations/AZ1.png" alt="RoboMate Azure Assessment" />
 </p>
 
 <p align="center">
-  <img src="./Presentations/OCI2.png" alt="Demoo Image" />
+  <img src="./Presentations/AZ2.png" alt="RoboMate Azure Automation" />
 </p>
 
 <p align="center">
-  <img src="./Presentations/HAWAEI2.png" alt="Demoo Image" />
+  <img src="./Presentations/AWS2.png" alt="RoboMate AWS Capabilities" />
 </p>
 
-Who is using it?
---------------
-RoboMate Cloud Automation was built for every Cloud Engineer, Developer, DevOps engineer, and SRE in mind. We understand that tackling cost savings, security improvements and resource usage analysis efforts can be hard, sometimes just knowing where to start, can be the most challenging part at times. RoboMate Cloud Automation is here to help those cloud practitioners see their cloud resources and accounts much more clearly. Only with clear insight can timely and efficient actions take place with maximum automation deployments which can be done to any of your customers. 
+<p align="center">
+  <img src="./Presentations/GCP2.png" alt="RoboMate Google Cloud Capabilities" />
+</p>
 
-RoboMate Cloud Automation - Assessments
---------------------------------------
-Use RoboMate Cloud Automation assessments for Azure, AWS, GCP, Huawei, and OCI and Get a wide range of reports including : 
+<p align="center">
+  <img src="./Presentations/OCI2.png" alt="RoboMate Oracle Cloud Capabilities" />
+</p>
 
-   A- Resources Inventory Report.
-   
-   B- Cost Optimization Reports.
-   
-   C- Business Continuity Reports.
-   
-   D- Cloud Native Security Reports.
-   
-   E- RoboMate Security Reports.
+<p align="center">
+  <img src="./Presentations/HAWAEI2.png" alt="RoboMate Huawei Cloud Capabilities" />
+</p>
 
-   F- Entra ID / Office 365 Security and Compliance Reports.
+# Assessment Profile
 
-   G- Entra ID / Office 365 CISA Security Reports.
+Evaluate cloud environments and generate structured reports to improve infrastructure visibility, security posture, and operational efficiency.
 
+**Available assessment categories:**
 
+- **Resource Inventory:** Discover and review cloud infrastructure assets and configurations.
+- **Cost Optimization:** Identify potential resource inefficiencies and cost-saving opportunities.
+- **Business Continuity:** Review supported availability, backup, and disaster recovery configurations.
+- **Cloud-Native Security:** Identify potential security misconfigurations using supported security frameworks.
+- **RoboMate Security:** Provide additional security-focused assessment insights.
+- **Entra ID and Microsoft 365 Security:** Assess supported identity, access, and compliance configurations.
+- **CISA Security Assessments:** Evaluate supported configurations against applicable CISA recommendations.
 
+Assessment coverage depends on the selected provider, permissions, enabled modules, and available configuration data.
 
-Watch the RoboMate Cloud Automation Assessments Quick Demos below
+# Automation Profile
 
-[RoboMate Cloud Automation Azure Assessments](https://1drv.ms/v/c/24dfc31debd79d09/IQThfe_VJodyQ54YmQl7OS1fAVxnDDOXV4sNoZF9VdEyOZg?width=1920&height=1080)
+Accelerate cloud engineering through predefined workflows and supported deployment capabilities.
 
-[RoboMate Cloud Automation AWS Assessments](https://1drv.ms/v/c/24dfc31debd79d09/IQRtuoYSDNLVQZqi2oFtGBGIAXO8M-SzbaJb_u_t25ZzD74?width=3840&height=2160)
+**Core automation capabilities:**
 
-[RoboMate Cloud Automation OCI Assessments](https://1drv.ms/v/c/24dfc31debd79d09/IQS7BHJAsXYCQ5kEGPljpzLGAY6IToFZUYVemGJ-LD_P28w?width=1920&height=1080)
+- **Workload Deployment:** Automate supported multi-step cloud implementation activities.
+- **Landing Zones and Architecture:** Deploy supported cloud foundations and architectural configurations.
+- **Monitoring and Auditing:** Implement supported monitoring and auditing solutions.
+- **Resource Migration:** Support eligible resource migrations within the same cloud provider.
+- **Security Hardening:** Apply supported cloud security configurations and recommendations.
 
+<p align="center">
+  <img src="./Presentations/Automation2.png" alt="RoboMate Automation Profile" />
+</p>
 
-RoboMate Cloud Automation - Automation Profile
----------------------------------------------
-Use RoboMate Cloud Automation for Azure, AWS, GCP, Huawei, and OCI and get a wide range of automation deployments, including : 
+Automation requirements, prerequisites, and outcomes vary according to the selected cloud platform, workflow, and target environment.
 
-   A- Complex Workloads Automation Deployments.
-   
-   B- Landing Zones and Full environmental architecture Deployments.
-   
-   C- Monitoring and Audit Deployments.
-   
-   D- Migration of resources across the same cloud providers.
-   
-   E- Security hardening deployment plan offered to harden the cloud environment using the cloud-native security frameworks.
+# Presales and Scope of Work Automation
 
+RoboMate Tools helps presales engineers, cloud consultants, and solution architects streamline the preparation of customer-specific scopes of work (SOWs) for cloud projects and professional services engagements.
 
+By supporting the translation of customer requirements into structured technical activities, RoboMate helps connect presales planning with practical implementation and automation capabilities.
 
+**Key capabilities:**
 
-Watch the RoboMate Cloud Automation Quick Automation Demos below
+- **Requirements Analysis:** Organize customer requirements into technical workstreams and implementation activities.
+- **Automated Scope Preparation:** Support the creation of structured, customer-specific scopes of work.
+- **Multi-Cloud Scoping:** Support projects across applicable cloud providers and Microsoft platforms.
+- **Delivery Planning:** Structure activities, deliverables, prerequisites, dependencies, assumptions, and exclusions.
+- **Effort Estimation Support:** Help organize implementation tasks for technical effort estimation and project planning.
+- **Automation Mapping:** Identify activities that align with available RoboMate automation tools and workflows.
 
-[RoboMate Cloud Automation Azure Automations](https://1drv.ms/v/s!Agmd1-sdw98kk4FJGInPdIarxgVzUw?e=31foRv)
+**Typical use cases:** Cloud migration, landing zones, security hardening, monitoring, governance, cost optimization, Microsoft security, and infrastructure deployment.
 
-[RoboMate Cloud Automation AWS Automations](https://1drv.ms/v/s!Agmd1-sdw98kk4FKOGoTC12RJKc8Cw?e=rC5I7B)
+**Business value:** Reduce repetitive presales effort, improve documentation consistency, accelerate proposal preparation, and establish clearer boundaries between project scope and delivery responsibilities.
 
-[RoboMate Cloud Automation OCI Automations](https://1drv.ms/v/s!Agmd1-sdw98kk4FGzNQs8WWTla4fSQ?e=MTpsG8)
+All generated or assembled scopes, estimates, and customer commitments should be validated by the responsible technical and commercial stakeholders before submission.
 
+# Who Is It For?
 
+RoboMate Cloud Automation is designed for:
 
-Request Your Assessment
---------------------------
+- Cloud architects and consultants
+- Cloud engineers and administrators
+- DevOps and platform engineering teams
+- Security and governance professionals
+- FinOps and cloud operations teams
+- Presales engineers and managed service providers
 
-Contact us at info@robomatecloud.com or visit our website [RoboMate Cloud Automation](https://www.robomatecloud.com)
+The platform helps teams improve visibility, standardize recurring activities, and accelerate customer delivery across supported cloud environments.
 
-OS Requirements
---------------
-1- Windows 10 / Windows 11 / Windows Server 2019 / Windows Server 2022 and Windows Server 2025
+# System Requirements
 
-HW Requirements
---------------
-1- CPU: 4 Cores
+| Component | Minimum Requirement |
+|---|---|
+| Operating system | Windows 10 / Windows 11 |
+| Windows Server | 2019, 2022, or 2025 |
+| Processor | 4 CPU cores |
+| Memory | 8 GB RAM |
+| Storage | 2 GB available disk space |
+| Display scaling | 100% recommended |
 
-2- Memory: 8 GB
+Additional resources may be required for large-scale assessments and reporting workloads.
 
-3- Storage: 2 GB
+# Prerequisites
 
-4- Display Scaling of 100%
+- Local administrator permissions for installation and operations requiring elevation.
+- A valid RoboMate Cloud Automation license.
+- Appropriate authentication and permissions for the target cloud environments.
+- Network access to required cloud services and endpoints.
+- Any additional dependencies required by the selected modules.
 
-Prerequisites
---------------
-1- Local Administrator permissions
+# Installation and Getting Started
 
-2- RoboMate Cloud Automation License ( Contact us at info@robomatecloud.com or visit our website [RoboMate Cloud Automation](https://www.robomatecloud.com)  for a trial license )
+1. Download `RoboMate-Installer.zip` from the authorized distribution source.
+2. Extract the installation package to a local directory.
+3. Run `RoboMateInstall.exe` with the required permissions.
+4. Activate your RoboMate Cloud Automation license.
+5. Follow the installation wizard to complete setup.
+6. Launch RoboMate Cloud Automation.
+7. Authenticate to the required cloud providers and Microsoft services.
+8. Select the appropriate assessment, automation, or presales workflow.
 
-Getting Started
-------------
-1- Download the RoboMate-Installer.zip file
+# Important Notes
 
-2- Extract the RoboMate-Installer.zip file contents
+- Review assessment findings before implementing remediation or configuration changes.
+- Validate automation prerequisites, permissions, and potential operational impact before execution.
+- Protect credentials, authentication tokens, license information, and assessment reports.
+- Product functionality depends on the installed version, license, enabled modules, and supported provider capabilities.
 
-3- Run RoboMateInstall.exe
+# Get Started with RoboMate
 
-4- Add your RoboMate Cloud Automation License
+Explore the platform, request a trial license, or discuss your cloud assessment, automation, and presales requirements through the official website.
 
-5- The installation wizard will guide you to complete the installation
+<p align="center">
+  <a href="https://www.robomatecloud.com"><strong>Visit the Official Website</strong></a>
+</p>
 
-6- Complete the installation Wizard
+<p align="center">
+  <strong>RoboMate Cloud Automation</strong><br />
+  Transforming Cloud Complexity into Actionable Insights and Repeatable Automation.
+</p>
 
-
+<p align="center">
+  Developed by Marco Fekry
+</p>

@@ -8,10 +8,7 @@ Developed by Multi-Cloud Consultant /Marco Fekry
 
 
 <p align="center">
-  <img src="./Presentations/Providers-Azure.png" alt="Image 1" width="150" style="margin: 10px;">
-  <img src="./Presentations/Providers-OCI.png" alt="Image 2" width="150" style="margin: 10px;">
-  <img src="./Presentations/Providers-AWS.png" alt="Image 3" width="150" style="margin: 10px;">
-  <img src="./Presentations/Providers-O365.png" alt="Image 4" width="150" style="margin: 10px;">
+  <img src="./Presentations/RBM_CloudProviders.jfif" alt="Image 1" width="1100" height="120" style="margin: 10px;">
 </p>
 
 What is RoboMate Cloud Automation? 
@@ -26,7 +23,7 @@ Detect potential vulnerabilities that could put your cloud environment at risk u
 
 Use RoboMate Cloud Automation built-in reports to gain visibility over all Cloud aspects.
 
-Get a deep understanding of how you spend on AWS, Azure, and OCI.
+Get a deep understanding of how you spend on  Azure, AWS, GCP, Huawei, and OCI.
 
 Just like an expert, Use any of the RoboMate Cloud Automation profiles and convert hours to minutes to build, develop, and secure the cloud environments.
 
@@ -44,23 +41,31 @@ Cost optimization is an area where RoboMate Cloud Automation truly excels. Its f
  
 Performance is crucial for any workload, and RoboMate ensures cloud applications operate at their best. Its frameworks monitor resource utilization, identify bottlenecks, and recommend optimization strategies. By implementing these recommendations, architects can enhance application performance, resulting in faster response times and improved end-user experiences.
  
-RoboMate Cloud Automation supports major platforms, including Microsoft Azure, Amazon Web Services, Oracle Cloud Infrastructure, and Microsoft Office 365, with a strong emphasis on reliability, availability, security, cost, and performance.
+RoboMate Cloud Automation supports major platforms, including Microsoft Azure, Amazon Web Services, Google Cloud, Huawei Cloud, Oracle Cloud Infrastructure, and Microsoft Office 365, with a strong emphasis on reliability, availability, security, cost, and performance.
 
 
 <p align="center">
-  <img src="./Presentations/RoboMate_AZ1.jpg" alt="Demoo Image" />
+  <img src="./Presentations/AZ1.png" alt="Demoo Image" />
 </p>
 
 <p align="center">
-  <img src="./Presentations/RoboMate_AWS1.jpg" alt="Demoo Image" />
+  <img src="./Presentations/AZ2.png" alt="Demoo Image" />
 </p>
 
 <p align="center">
-  <img src="./Presentations/RoboMate_OCI1.jpg" alt="Demoo Image" />
+  <img src="./Presentations/AWS2.png" alt="Demoo Image" />
 </p>
 
 <p align="center">
-  <img src="./Presentations/RoboMate_O3651.jpg" alt="Demoo Image" />
+  <img src="./Presentations/GCP2.png" alt="Demoo Image" />
+</p>
+
+<p align="center">
+  <img src="./Presentations/OCI2.png" alt="Demoo Image" />
+</p>
+
+<p align="center">
+  <img src="./Presentations/HAWAEI2.png" alt="Demoo Image" />
 </p>
 
 Who is using it?
@@ -69,7 +74,7 @@ RoboMate Cloud Automation was built for every Cloud Engineer, Developer, DevOps 
 
 RoboMate Cloud Automation - Assessments
 --------------------------------------
-Use RoboMate Cloud Automation assessments for Azure, AWS, or OCI and Get a wide range of reports including : 
+Use RoboMate Cloud Automation assessments for Azure, AWS, GCP, Huawei, and OCI and Get a wide range of reports including : 
 
    A- Resources Inventory Report.
    
@@ -99,7 +104,7 @@ Watch the RoboMate Cloud Automation Assessments Quick Demos below
 
 RoboMate Cloud Automation - Automation Profile
 ---------------------------------------------
-Use RoboMate Cloud Automation for Azure, AWS, or OCI and Get a wide range of automation deployments including : 
+Use RoboMate Cloud Automation for Azure, AWS, GCP, Huawei, and OCI and get a wide range of automation deployments, including : 
 
    A- Complex Workloads Automation Deployments.
    

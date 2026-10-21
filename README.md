@@ -24,7 +24,7 @@
 
 # Overview
 
-RoboMate Cloud Automation is an integrated cloud engineering solution designed to simplify infrastructure assessment, improve security, optimize cloud expenditure, and accelerate technical delivery across multi-cloud environments.
+RoboMate Cloud Automation is an integrated Multicloud engineering solution designed to simplify infrastructure assessment, improve security, optimize cloud expenditure, and accelerate technical delivery across multi-cloud environments.
 
 Combining assessment profiles, automation workflows, reporting, and RoboMate Tools, the platform helps cloud professionals reduce repetitive engineering tasks and deliver consistent, insight-driven results.
 

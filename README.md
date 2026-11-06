@@ -232,16 +232,6 @@ Additional resources may be required for large-scale assessments and reporting w
 
 Updates are checked when RoboMate Console starts and every hour; required updates install before RoboMate opens.
 
-# What's New
-
-- **Active Directory** assessment provider with dedicated views, multi-level permissions, reports, and recommendations.
-- **Scheduled Tasks** for the assessments of every provider.
-- **Compliance Reports** for 18 standards in every cloud, updated online daily.
-- **78 RoboMate Hub offerings** across five clouds.
-- **Entra ID and Office 365:** one App ID sign-in with automatic app creation, about 200 data sets, extended Intune coverage, and RoboMate's own CISA and recommended-configuration checks.
-- **Google Cloud and Huawei Cloud:** full resource coverage, dependencies, and Google Cloud organization discovery.
-- **Admin Center:** license serials, assessment counts for every provider, and log analytics.
-- **Export to PDF**, HTTPS web console, required and optional updates, and the system tray launcher.
 
 # Important Notes
 
@@ -253,7 +243,7 @@ Updates are checked when RoboMate Console starts and every hour; required update
 
 # Get Started with RoboMate
 
-Explore the platform, request a trial license, or discuss your cloud assessment, automation, and presales requirements through the official website.
+Explore the platform, request a trial license, or discuss your cloud assessment, automation, and pre-sales requirements through the official website.
 
 <p align="center">
   <a href="https://www.robomatecloud.com"><strong>Visit the Official Website</strong></a>

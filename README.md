@@ -75,6 +75,10 @@ Assessment and automation scenarios depend on the selected module, license, and 
   <img src="./Presentations/HAWAEI2.png" alt="RoboMate Huawei Cloud Capabilities" />
 </p>
 
+<p align="center">
+  <img src="./Presentations/AD2.png" alt="RoboMate Active Directory Capabilities" />
+</p>
+
 # Assessment Profile
 
 Evaluate cloud and on-premises environments and generate structured reports to improve infrastructure visibility, security posture, compliance, and operational efficiency.

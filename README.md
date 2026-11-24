@@ -44,6 +44,7 @@
     <td align="center"><a href="#-security-assessments"><b>🛡️ Security</b></a></td>
     <td align="center"><a href="#-compare-assessments"><b>🔄 Compare</b></a></td>
     <td align="center"><a href="#-robomate-operations"><b>🧩 Operations</b></a></td>
+    <td align="center"><a href="#-robomate-migrations"><b>🚚 Migrations</b></a></td>
   </tr>
   <tr>
     <td align="center"><a href="#-automation-profile"><b>⚙️ Automation &amp; IaC</b></a></td>
@@ -51,6 +52,7 @@
     <td align="center"><a href="#-robomate-ai-and-tools"><b>🤖 AI &amp; Tools</b></a></td>
     <td align="center"><a href="#-installation"><b>🚀 Install</b></a></td>
     <td align="center"><a href="#-whats-new-in-3618"><b>🆕 What's New</b></a></td>
+    <td align="center"><a href="#-important-notes"><b>⚠️ Notes</b></a></td>
   </tr>
 </table>
 
@@ -58,9 +60,9 @@
 
 ## 🏠 Overview
 
-RoboMate Cloud Automation is an integrated multi-cloud engineering platform. It assesses, secures, proves compliance, optimizes cost and automates delivery across **Microsoft Azure, AWS, Oracle Cloud, Google Cloud, Huawei Cloud, Microsoft Entra ID and Office 365, and on-premises Active Directory**, all from one modern web console that runs on your own Windows server.
+RoboMate Cloud Automation is an integrated multi-cloud engineering platform. It assesses, secures, proves compliance, optimizes cost, migrates machines and automates delivery across **Microsoft Azure, AWS, Oracle Cloud, Google Cloud, Huawei Cloud, Microsoft Entra ID and Office 365, and on-premises Active Directory**, all from one modern web console that runs on your own Windows server.
 
-Assessment profiles, FinOps, security assessments, automation workflows with infrastructure as code, compliance reporting, RoboMate Operations (consolidated multi-cloud views and scheduled assessments), assessment comparison, RoboMate Hub and RoboMate AI work together, so cloud teams spend less time on repetitive engineering and deliver consistent, evidence-based results.
+Assessment profiles, FinOps, security assessments, automation workflows with infrastructure as code, compliance reporting, RoboMate Operations (Multi Cloud Consolidated view, RoboMate Migrations and scheduled assessments), assessment comparison, RoboMate Hub and RoboMate AI work together, so cloud teams spend less time on repetitive engineering and deliver consistent, evidence-based results.
 
 | | |
 |:---:|:---:|
@@ -77,6 +79,7 @@ Assessment profiles, FinOps, security assessments, automation workflows with inf
     <td align="center"><h2>203</h2>automation workflows<br /><sub>deploy, update, delete, migrate</sub></td>
     <td align="center"><h2>97</h2>FinOps actions<br /><sub>preview and apply, 5 clouds</sub></td>
     <td align="center"><h2>86</h2>RoboMate Hub offerings<br /><sub>scopes of work and man-days</sub></td>
+    <td align="center"><h2>5</h2>migration targets<br /><sub>any source to any cloud, Windows and Linux</sub></td>
   </tr>
 </table>
 
@@ -123,8 +126,13 @@ mindmap
       3,638 requirements
       CISA SCuBA for Microsoft 365
       Daily online rule updates
+    Migrate
+      Discovery and agents
+      Workloads and dependencies
+      Appliances and replication
+      Test failover and cutover
     Operate
-      Consolidated Views
+      Multi Cloud Consolidated view
       Scheduled Tasks and email
       Compare and difference reports
       Archive and logs
@@ -152,7 +160,7 @@ mindmap
 The **Cloud Providers** screen shows eight cards, four per row. Each provider card shows the saved access (account, tenant, subscription, project or domain) so you can sign in again with one click. The eighth card, **RoboMate Operations**, shows the runs in progress, the next scheduled run and the consolidated assessments.
 
 <p align="center">
-  <img src="./docs/screenshots/03b-cloud-providers-operations.webp" alt="RoboMate Cloud Providers screen" width="100%" />
+  <img src="./docs/screenshots/03c-cloud-providers-migrations.webp" alt="RoboMate Cloud Providers screen" width="100%" />
 </p>
 
 | | | | |
@@ -252,13 +260,13 @@ On-premises Active Directory and the Windows Server estate, with the same experi
 </details>
 
 <details>
-<summary><b>🧩 RoboMate Operations</b> · Consolidated Views and Scheduled Tasks</summary>
+<summary><b>🧩 RoboMate Operations</b> · Multi Cloud Consolidated view, RoboMate Migrations and Scheduled Tasks</summary>
 
 <br />
 
-Work across every provider at once: Consolidated Views of the saved assessments (no cloud sign-in) and Scheduled Tasks that run on the RoboMate server and email the reports. See <a href="#-robomate-operations">RoboMate Operations</a>.
+Work across every provider at once: the Multi Cloud Consolidated view of the saved assessments (no cloud sign-in), RoboMate Migrations for virtual and physical machines, and Scheduled Tasks that run on the RoboMate server and email the reports. See <a href="#-robomate-operations">RoboMate Operations</a> and <a href="#-robomate-migrations">RoboMate Migrations</a>.
 
-<img src="./docs/screenshots/90-robomate-operations.webp" alt="RoboMate Operations" width="100%" />
+<img src="./docs/screenshots/180-robomate-operations-3-options.webp" alt="RoboMate Operations" width="100%" />
 </details>
 
 <details>
@@ -584,7 +592,7 @@ flowchart LR
 
 ## 💰 FinOps and Cost
 
-The **Cost** view of every cloud is a FinOps workspace built from the assessment data, and every view also works across clouds in RoboMate Consolidated Views.
+The **Cost** view of every cloud is a FinOps workspace built from the assessment data, and every view also works across clouds in the Multi Cloud Consolidated views.
 
 | View | What it shows |
 |---|---|
@@ -677,9 +685,11 @@ flowchart LR
 
 ## 🧩 RoboMate Operations
 
-**RoboMate Operations** is the eighth card of Cloud Providers. It opens two options: **RoboMate Consolidated Views** and **Scheduled Tasks**.
+**RoboMate Operations** is the eighth card of Cloud Providers. It opens three options: **Multi Cloud Consolidated view**, **RoboMate Migrations** (see [RoboMate Migrations](#-robomate-migrations)) and **Scheduled Tasks**.
 
-### RoboMate Consolidated Views
+<img src="./docs/screenshots/180-robomate-operations-3-options.webp" alt="RoboMate Operations with three options" width="100%" />
+
+### Multi Cloud Consolidated view
 
 A console of its own that works across every provider at once, with **no cloud sign-in**: it reads only the saved assessments of Azure, AWS, OCI, Google Cloud, Huawei Cloud, Entra ID and Office 365, and Active Directory.
 
@@ -692,7 +702,7 @@ A console of its own that works across every provider at once, with **no cloud s
 | | |
 |:---:|:---:|
 | <img src="./docs/screenshots/90-robomate-operations.webp" alt="RoboMate Operations" /> | <img src="./docs/screenshots/91-consolidated-select.webp" alt="Select assessments" /> |
-| **RoboMate Operations** | **Pick the saved assessments of every provider** |
+| **Multi Cloud Consolidated view** | **Pick the saved assessments of every provider** |
 | <img src="./docs/screenshots/92-consolidated-cost.webp" alt="Consolidated cost" /> | <img src="./docs/screenshots/93-consolidated-reports.webp" alt="Consolidated reports" /> |
 | **Cost of all clouds** | **Consolidated reports by category** |
 
@@ -735,6 +745,78 @@ stateDiagram-v2
 <br />
 
 <img src="./docs/screenshots/57-scheduled-run-history.webp" alt="Run history" width="100%" />
+</details>
+
+---
+
+## 🚚 RoboMate Migrations
+
+**RoboMate Migrations** (RoboMate Operations, option 2) assesses and migrates virtual and physical machines with the RoboMate agents only. Sources: VMware, Hyper-V and physical machines on-premises, and the virtual machines of Azure, AWS, Google Cloud, OCI and Huawei Cloud. Targets: any of these five clouds, including the same cloud region to region. Windows Server 2012 R2 to 2025, Windows 10 and 11, and every major Linux distribution (Ubuntu, Debian, RHEL, CentOS Stream, Rocky, Alma, Oracle Linux, SLES, openSUSE and more).
+
+```mermaid
+flowchart LR
+    P["📁 Project and access<br/>source, target cloud and region,<br/>Performance or Standard sizing"] --> D["🔎 Discovery<br/>VMware · Hyper-V · IP/DNS ·<br/>cloud VMs (read-only)"]
+    D --> A["🤖 Agents<br/>WinRM · SSH · cloud run command<br/>or one-line install"]
+    A --> M["📈 Measure and plan<br/>performance · workloads ·<br/>dependencies · sizing and cost"]
+    M --> S["🗄️ Cloud storage<br/>created and tested by RoboMate"]
+    S --> AP["🛰️ Appliance<br/>cloud or on-premises Ubuntu relay"]
+    AP --> R["🔄 Replication<br/>full copy, then changed blocks,<br/>restore points"]
+    R --> T["🧪 Test failover<br/>isolated test network, Clean up"]
+    T --> C["✅ Cutover<br/>last incremental, VM created<br/>with the failover mapping"]
+```
+
+### Migration Assessment
+
+- **Discovery:** Hyper-V hosts and VMware vCenter or ESXi (discovery only), machines by IP or DNS name with a Probe, and the VMs of a source cloud with its own read-only sign-in. Every machine gets its vCPU, memory, disks, OS, firmware, Secure Boot and TPM; temporary disks are never replicated.
+- **Agents:** install the RoboMate Migration Agent from the console (WinRM for Windows, SSH for Linux), with the cloud run command (Azure Run Command, AWS Systems Manager, OCI Instance Agent) or by hand. Live heartbeat, Rescan, versions, **automatic updates** without WinRM or SSH, and **Prepare** for the target cloud (boot drivers, fstab by UUID, VirtIO, ENA and NVMe).
+- **Workloads:** web and app servers, databases, message brokers and services found by the agent on every machine, read only, with versions, sizes, end of support and the matching managed service in the target cloud.
+- **Performance:** CPU, memory, disk IOPS, MB/s and latency, and network every 15 seconds; 7 days by default or a 1-hour quick run.
+- **Dependencies:** who talks to whom, links outside the project, suggested waves, and internet checks (DNS, TCP and HTTPS to the cloud endpoints).
+- **Sizing and Cost:** P95-based sizes, disk tiers, monthly cost from live cloud prices, readiness, efficiency ideas, Compare clouds and cost today against after the move.
+- **Reports:** 17 reports (Executive summary, Inventory, Hardware performance, Disk IO, Network, Internet access, Readiness, Cloud recommendations, Cost, Migration waves, Cloud-to-cloud comparison, Replication, Syncs, Restore points, Data reduction, Failover mapping and Cutover) as PDF, HTML or Excel.
+
+### Migrate
+
+- **Cloud storage:** RoboMate creates the replication storage with the project access (Azure StorageV2 with HTTPS only and TLS 1.2, AWS S3, Google Cloud Storage, OCI Object Storage, Huawei OBS), tests the upload, and monitors size, growth, restore points and syncs. **Remove** or **Recreate** touches only what RoboMate created.
+- **Appliances:** a cloud appliance deployed with Validate and Deploy (resource group or compartment, zone, security group, subnet, OS and cache disks), or any on-premises Ubuntu VM running the agent as an appliance. Health, relay throughput, spool, uploads, CPU and memory per appliance, with **Reconnect** for cloud appliances.
+- **Replication:** blocks with a SHA-256 map, a full copy once then only the changed blocks, Brotli compression, empty blocks never sent. One-time or every N minutes with a window, pause, resume, stop and Sync now, restore points, a read limit and low impact mode on the machine.
+- **Failover mapping:** resource group, network, subnet, security group, zone, IP (DHCP, keep or static), public IP, size (Recommended or Fixed), disk type, test network, host name and tags per machine.
+- **Test failover and cutover:** a test VM from any restore point in an isolated network while replication carries on, then Clean up. Cutover runs a last incremental, restores every block with a hash check and creates the VM with the source firmware (Gen2 and Trusted Launch, UEFI, Shielded VM and the OCI and Huawei Cloud equivalents).
+
+### Ports
+
+| From | To | Port |
+|---|---|---|
+| Agents and appliances | RoboMate console (agent gateway) | HTTPS TCP 5081 |
+| Source agents | Replication appliance (relay) | HTTPS TCP 5443 |
+| Appliance and console | Target cloud storage and cloud APIs | HTTPS TCP 443 |
+| RoboMate console | Windows / Linux machines (push install) | WinRM 5985/5986 / SSH 22 |
+
+### License
+
+Migrations is its own license module: **Migration** plus a number of **Migration Devices** (or Unlimited). Every machine in a project counts as a device; appliances do not. Profile › Migrations shows licensed, used and remaining devices and the progress of every project. The installer adds VMware PowerCLI, the Hyper-V module, Posh-SSH and the OpenSSH client when the license has Migration. Failback to the source after cutover is not part of this release.
+
+| | |
+|:---:|:---:|
+| <img src="./docs/screenshots/181-migration-discovery.webp" alt="Discovery" /> | <img src="./docs/screenshots/182-migration-agents.webp" alt="Agents" /> |
+| **Discovery** | **Agents with heartbeat and versions** |
+| <img src="./docs/screenshots/183-migration-workloads.webp" alt="Workloads" /> | <img src="./docs/screenshots/184-migration-dependencies.webp" alt="Dependencies" /> |
+| **Workloads found by the agent** | **Dependencies and waves** |
+| <img src="./docs/screenshots/185-migration-sizing.webp" alt="Sizing and cost" /> | <img src="./docs/screenshots/186-migration-storage.webp" alt="Cloud storage" /> |
+| **Sizing and cost** | **Cloud storage** |
+| <img src="./docs/screenshots/187-migration-appliances.webp" alt="Appliances" /> | <img src="./docs/screenshots/188-migration-replication.webp" alt="Replication" /> |
+| **Replication appliances** | **Replication** |
+| <img src="./docs/screenshots/189-migration-cutover.webp" alt="Test failover and cutover" /> | <img src="./docs/screenshots/190-migration-reports.webp" alt="Migration reports" /> |
+| **Test failover and cutover** | **17 migration reports** |
+
+<details>
+<summary><b>📸 More: supported systems, executive report, Profile › Migrations</b></summary>
+
+<br />
+
+<img src="./docs/screenshots/192-migration-supported-systems.webp" alt="Supported systems" width="100%" />
+<img src="./docs/screenshots/191-migration-executive-report.webp" alt="Executive migration report" width="100%" />
+<img src="./docs/screenshots/193-profile-migrations.webp" alt="Profile Migrations" width="100%" />
 </details>
 
 ---
@@ -862,7 +944,7 @@ flowchart LR
 
 ### Admin Center and profile
 
-Licenses with serials, usage and expiry (new license keys start with `github_`), **regional license hosting** on Amazon S3, Azure Blob or a folder through the RoboMate Replication Service with the real replication status per license, assessment counts for every provider, log analytics across all licenses, assessments download, RoboMate AI settings and Project Publish with required or optional updates.
+Licenses with serials, usage and expiry (new license keys start with `github_`), **regional license hosting** on Amazon S3, Azure Blob or a folder through the RoboMate Replication Service with the real replication status per license, assessment counts for every provider, log analytics across all licenses, assessments download, RoboMate AI settings and Project Publish with required or optional updates. The **Replication Agent** window of the RoboMate Replication Service (HTTPS port **4090**) shows the full service address, the regional storages with their state and last sync, and runs the connection check in the background.
 
 | | |
 |:---:|:---:|
@@ -870,6 +952,8 @@ Licenses with serials, usage and expiry (new license keys start with `github_`),
 | **Admin Center: licenses** | **Log analytics** |
 | <img src="./docs/screenshots/71-profile.webp" alt="Profile" /> | <img src="./docs/screenshots/72-sync-engine-events.webp" alt="Engine sync events" /> |
 | **Profile, license and Engine Check** | **Sync engine files: events with fixes** |
+| <img src="./docs/screenshots/194-replication-agent.webp" alt="Replication Agent" /> | <img src="./docs/screenshots/193-profile-migrations.webp" alt="Profile Migrations" /> |
+| **Replication Agent (port 4090)** | **Profile › Migrations** |
 
 ### Light and dark themes
 
@@ -914,11 +998,11 @@ Large assessments and reporting workloads may need more resources.
 5. Follow the wizard: Welcome, System check, License, Agreement, Components, Install. It installs the prerequisites for the providers in your license, in parallel, with live progress and the time remaining.
 6. Launch **RoboMate Console**. It opens `https://RoboMateCloudAutomation:5080` and keeps running in the system tray.
 7. Sign in to the clouds, Microsoft 365 or Active Directory you need.
-8. Choose an assessment, automation, scheduled task or presales workflow.
+8. Choose an assessment, automation, migration project, scheduled task or presales workflow.
 
 ### What the installer does
 
-The license is validated in the background behind one wait card (no flickering popups), over TLS 1.2 with the system proxy, so it also works on Windows Server 2016. The setup and its scripts can be code-signed, a signed script that was changed is refused, and Apps & features *Uninstall* opens the setup kept on the machine. The installer no longer installs the .NET 6 Desktop Runtime or removes Windows Terminal.
+The license is validated in the background behind one wait card (no flickering popups), over TLS 1.2 with the system proxy, so it also works on Windows Server 2016. The setup and its scripts can be code-signed, a signed script that was changed is refused, and Apps & features *Uninstall* opens the setup kept on the machine. The installer no longer installs the .NET 6 Desktop Runtime or removes Windows Terminal. The Active Directory step is lighter, and a **Migrations** step adds VMware PowerCLI, the Hyper-V module, Posh-SSH and the OpenSSH client when the license has Migration.
 
 The installer checks the system first, then runs its tasks in parallel (2 to 6 at a time, depending on CPU and memory). Each task has a time limit, so a stuck step is reported as a warning and the install carries on.
 
@@ -933,7 +1017,8 @@ flowchart LR
     B --> HU["Huawei KooCLI"]
     B --> ADP["AD prerequisites<br/>RSAT · SqlServer · WinRM"]
     B --> M3["Microsoft 365 modules"]
-    CON & AZ & AW & OC & GC & HU & ADP & M3 --> D["✅ Summary<br/>per task, with duration"]
+    B --> MIG["Migrations<br/>PowerCLI · Hyper-V ·<br/>Posh-SSH · OpenSSH"]
+    CON & AZ & AW & OC & GC & HU & ADP & M3 & MIG --> D["✅ Summary<br/>per task, with duration"]
 ```
 
 | | |
@@ -955,7 +1040,12 @@ Updates are checked when RoboMate Console starts and every hour. Required update
 
 | Area | What changed |
 |---|---|
-| **RoboMate Operations** | New eighth card: Consolidated Views of all providers from saved assessments (no cloud sign-in) with Assessment, Cost, Charts and 12 report categories including Multicloud, plus Scheduled Tasks. |
+| **RoboMate Migrations** *(24 Nov)* | RoboMate Operations, option 2: discover VMware, Hyper-V, physical machines and cloud VMs, install the agent, measure performance and workloads, map dependencies, size and price the target, then replicate through a cloud or on-premises appliance and run test failovers and cutover, from on-premises or any of five clouds to any of them. 17 migration reports. |
+| **Migration agent** *(24 Nov)* | Windows and every major Linux distribution; install from the console, the cloud run command or by hand; Prepare for the target cloud; live heartbeat, Rescan, automatic updates and low impact mode. |
+| **Cloud storage and appliances** *(24 Nov)* | Storage created and tested by RoboMate, Remove and Recreate; appliance deployment options, monitoring with gauges and Reconnect. |
+| **Migration license** *(24 Nov)* | Migration module with device counts in every license view and Profile › Migrations; installer Migrations step. |
+| **Replication Agent** *(24 Nov)* | The RoboMate Replication Service runs on port 4090; the window shows the full address and the regional storages and runs the connection check in the background. |
+| **RoboMate Operations** | New eighth card: Multi Cloud Consolidated view (was Consolidated Views) of all providers from saved assessments (no cloud sign-in) with Assessment, Cost, Charts and 12 report categories including Multicloud, plus Scheduled Tasks. |
 | **Scheduled Tasks** | Completion email over SMTP (all tasks or per task) with reports attached as PDF; progress phases instead of raw script output; scheduled Azure runs export ARM templates again. |
 | **FinOps** | FinOps Overview, Daily Cost, Forecast, Cost Attribution, Optimization, Budgets, Anomalies and Commitments in all five clouds, 97 cost actions with a permissions window, quick Run Cost Analysis. |
 | **Security Assessments** | IaC security scanning, attack paths, vulnerabilities and identity risk tiles and 5 reports per cloud. |
@@ -990,6 +1080,7 @@ Updates are checked when RoboMate Console starts and every hour. Required update
 - Protect credentials, tokens, license information and assessment reports.
 - Compliance reports guide remediation and are not a certification.
 - Functionality depends on the installed version, license, enabled modules and supported provider capabilities.
+- RoboMate Migrations does not include failback to the source after cutover in this release.
 - Screenshots in this README use demo data (Contoso, Fabrikam and similar fictitious names).
 
 ---

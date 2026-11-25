@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <img src="./Presentations/RBM_CloudProviders.jfif" alt="Supported Cloud Platforms" width="1000" height="120" />
+  <img src="./Presentations/RBM_CloudProviders.png" alt="Supported platforms: Microsoft Azure, AWS, Oracle Cloud, Google Cloud, Huawei Cloud, Microsoft Entra ID and Microsoft 365, Active Directory and RoboMate Operations" width="1000" />
 </p>
 
 <!-- ───────────────────────────── TAB BAR ───────────────────────────── -->
@@ -157,11 +157,16 @@ mindmap
 
 ## ☁️ Platforms
 
-The **Cloud Providers** screen shows eight cards, four per row. Each provider card shows the saved access (account, tenant, subscription, project or domain) so you can sign in again with one click. The eighth card, **RoboMate Operations**, shows the runs in progress, the next scheduled run and the consolidated assessments.
+The **Cloud Providers** screen shows eight cards, four per row, each with the provider's **original logo** (on a white card in the dark theme too). Each provider card shows the saved access (account, tenant, subscription, project or domain) so you can sign in again with one click. The eighth card, **RoboMate Operations**, shows the runs in progress, the next scheduled run and the consolidated assessments.
 
 <p align="center">
   <img src="./docs/screenshots/03c-cloud-providers-migrations.webp" alt="RoboMate Cloud Providers screen" width="100%" />
 </p>
+
+| | |
+|:---:|:---:|
+| <img src="./docs/screenshots/03-cloud-providers-dark.webp" alt="Cloud Providers in the dark theme" /> | <img src="./docs/screenshots/05b-signin-aws.webp" alt="AWS sign-in page" /> |
+| **Dark theme: the logos keep their white cards** | **Every sign-in page shows the provider's original logo** |
 
 | | | | |
 |:---:|:---:|:---:|:---:|
@@ -765,10 +770,24 @@ flowchart LR
     T --> C["✅ Cutover<br/>last incremental, VM created<br/>with the failover mapping"]
 ```
 
+### Projects: Migration or Disaster recovery
+
+RoboMate Migrations opens on **Projects**. Every project has a **Purpose**:
+
+- **Migration**: the machines move to the cloud and are cut over.
+- **Disaster recovery (DR)**: the machines keep running where they are and replicate to the cloud continuously. Test failovers prove the recovery, and a failover starts them in the cloud when the site is lost.
+
+The New project form stays open until the project is saved: a missing value or a refusal is shown over it, and nothing you typed is lost.
+
+| | |
+|:---:|:---:|
+| <img src="./docs/screenshots/197-migration-projects.webp" alt="Migration projects with their purpose" /> | <img src="./docs/screenshots/198-migration-new-project-purpose.webp" alt="New project with Purpose" /> |
+| **Projects, each with its purpose** | **New project: Purpose, migration type, source and target** |
+
 ### Migration Assessment
 
 - **Discovery:** Hyper-V hosts and VMware vCenter or ESXi (discovery only), machines by IP or DNS name with a Probe, and the VMs of a source cloud with its own read-only sign-in. Every machine gets its vCPU, memory, disks, OS, firmware, Secure Boot and TPM; temporary disks are never replicated.
-- **Agents:** install the RoboMate Migration Agent from the console (WinRM for Windows, SSH for Linux), with the cloud run command (Azure Run Command, AWS Systems Manager, OCI Instance Agent) or by hand. Live heartbeat, Rescan, versions, **automatic updates** without WinRM or SSH, and **Prepare** for the target cloud (boot drivers, fstab by UUID, VirtIO, ENA and NVMe).
+- **Agents:** **＋ Install agent on new machines** adds machines by IP address or DNS name straight to the project's Agents (no Discovery step) and installs the agent at once. Push installs sign in with a password (WinRM / SSH) or an **SSH key** for Linux: with a key no password is asked, the private key is pasted for that install only, or read from a key file on the RoboMate server. Agents can also be installed (Azure Run Command, AWS Systems Manager, OCI Instance Agent) or by hand. Live heartbeat, Rescan, versions, **automatic updates** without WinRM or SSH, and **Prepare** for the target cloud (boot drivers, fstab by UUID, VirtIO, ENA and NVMe).
 - **Workloads:** web and app servers, databases, message brokers and services found by the agent on every machine, read only, with versions, sizes, end of support and the matching managed service in the target cloud.
 - **Performance:** CPU, memory, disk IOPS, MB/s and latency, and network every 15 seconds; 7 days by default or a 1-hour quick run.
 - **Dependencies:** who talks to whom, links outside the project, suggested waves, and internet checks (DNS, TCP and HTTPS to the cloud endpoints).
@@ -778,7 +797,7 @@ flowchart LR
 ### Migrate
 
 - **Cloud storage:** RoboMate creates the replication storage with the project access (Azure StorageV2 with HTTPS only and TLS 1.2, AWS S3, Google Cloud Storage, OCI Object Storage, Huawei OBS), tests the upload, and monitors size, growth, restore points and syncs. **Remove** or **Recreate** touches only what RoboMate created.
-- **Appliances:** a cloud appliance deployed with Validate and Deploy (resource group or compartment, zone, security group, subnet, OS and cache disks), or any on-premises Ubuntu VM running the agent as an appliance. Health, relay throughput, spool, uploads, CPU and memory per appliance, with **Reconnect** for cloud appliances.
+- **Appliances:** a cloud appliance is deployed **in the source cloud** of a cloud-to-cloud project (for example in AWS for an AWS to Azure project), next to the VMs it replicates, with the source sign-in; it writes to the target's replication storage. Deployed with Validate and Deploy (resource group or compartment, zone, security group, subnet, OS and cache disks), or any on-premises Ubuntu VM running the agent as an appliance. Health, relay throughput, spool, uploads, CPU and memory per appliance, with **Reconnect** for cloud appliances.
 - **Replication:** blocks with a SHA-256 map, a full copy once then only the changed blocks, Brotli compression, empty blocks never sent. One-time or every N minutes with a window, pause, resume, stop and Sync now, restore points, a read limit and low impact mode on the machine.
 - **Failover mapping:** resource group, network, subnet, security group, zone, IP (DHCP, keep or static), public IP, size (Recommended or Fixed), disk type, test network, host name and tags per machine.
 - **Test failover and cutover:** a test VM from any restore point in an isolated network while replication carries on, then Clean up. Cutover runs a last incremental, restores every block with a hash check and creates the VM with the source firmware (Gen2 and Trusted Launch, UEFI, Shielded VM and the OCI and Huawei Cloud equivalents).
@@ -794,18 +813,20 @@ flowchart LR
 
 ### License
 
-Migrations is its own license module: **Migration** plus a number of **Migration Devices** (or Unlimited). Every machine in a project counts as a device; appliances do not. Profile › Migrations shows licensed, used and remaining devices and the progress of every project. The installer adds VMware PowerCLI, the Hyper-V module, Posh-SSH and the OpenSSH client when the license has Migration. Failback to the source after cutover is not part of this release.
+Migrations is its own license module: **Migration** plus a number of **Migration Devices** (or Unlimited). It works **on its own**: a license with only Migration opens RoboMate Operations › Migrations and migrates from and to any of the five clouds, with no cloud provider or Deploy product. Every machine in a project counts as a device (from Discovery, by address, by direct install or when an agent registers), appliances do not, and the count never goes above the license. Pages the license does not include say which product is missing. Profile › Migrations shows licensed, used and remaining devices and the progress of every project. The installer adds VMware PowerCLI, the Hyper-V module, Posh-SSH and the OpenSSH client when the license has Migration. Failback to the source after cutover is not part of this release.
 
 | | |
 |:---:|:---:|
 | <img src="./docs/screenshots/181-migration-discovery.webp" alt="Discovery" /> | <img src="./docs/screenshots/182-migration-agents.webp" alt="Agents" /> |
-| **Discovery** | **Agents with heartbeat and versions** |
+| **Discovery** | **Agents: install on new machines, heartbeat and versions** |
+| <img src="./docs/screenshots/199-migration-install-ssh-key.webp" alt="Install the agent with an SSH key" /> | <img src="./docs/screenshots/187-migration-appliances.webp" alt="Appliance in the source cloud" /> |
+| **Install with an SSH key (no password)** | **Appliance in the source cloud (AWS to Azure)** |
 | <img src="./docs/screenshots/183-migration-workloads.webp" alt="Workloads" /> | <img src="./docs/screenshots/184-migration-dependencies.webp" alt="Dependencies" /> |
 | **Workloads found by the agent** | **Dependencies and waves** |
 | <img src="./docs/screenshots/185-migration-sizing.webp" alt="Sizing and cost" /> | <img src="./docs/screenshots/186-migration-storage.webp" alt="Cloud storage" /> |
 | **Sizing and cost** | **Cloud storage** |
-| <img src="./docs/screenshots/187-migration-appliances.webp" alt="Appliances" /> | <img src="./docs/screenshots/188-migration-replication.webp" alt="Replication" /> |
-| **Replication appliances** | **Replication** |
+| <img src="./docs/screenshots/180-robomate-operations-3-options.webp" alt="RoboMate Operations" /> | <img src="./docs/screenshots/188-migration-replication.webp" alt="Replication" /> |
+| **RoboMate Operations: option 2 opens Migrations** | **Replication** |
 | <img src="./docs/screenshots/189-migration-cutover.webp" alt="Test failover and cutover" /> | <img src="./docs/screenshots/190-migration-reports.webp" alt="Migration reports" /> |
 | **Test failover and cutover** | **17 migration reports** |
 
@@ -843,6 +864,19 @@ Accelerate cloud engineering with predefined, parameter-driven workflows. Each w
 <p align="center">
   <img src="./docs/screenshots/14-azure-deploy.webp" alt="Deployment workflow" width="100%" />
 </p>
+
+### Deployment Assist
+
+Every Deploy and Migrate automation of Azure, AWS, OCI, Google Cloud and Huawei Cloud is checked before it runs.
+
+- **Default networks:** the network fields show RoboMate-VNet / RoboMate-Subnet (RoboMate-VPC, RoboMate-VCN, robomate-vpc) unless you change them. Before the automation starts, RoboMate creates the network and subnet when they do not exist, in a free address range of the deployment region, as the migration appliance does; with an existing network it only adds the missing subnet.
+- **Check deployment** (a button in every form, and automatically on Run): the size, instance type, shape, machine type or flavor in the region and zone; image generation and architecture; security type and Trusted Launch; **disk tier against the size and the region**; vCPU quota and limits; and the networks. Problems come first, each with how to fix it and buttons that take you to the fields.
+- **While it runs:** the security type and disk type questions offer only the values the chosen size supports, and cloud errors about disk tiers, sizes, quota, zones and images are explained under the error line with what to change.
+
+| | |
+|:---:|:---:|
+| <img src="./docs/screenshots/14-azure-deploy.webp" alt="Deployment form with network defaults" /> | <img src="./docs/screenshots/200-deployment-check.webp" alt="Check deployment" /> |
+| **Network defaults RoboMate creates when missing** | **Check deployment: fix, check, what RoboMate will do** |
 
 ### Infrastructure as Code
 
@@ -927,7 +961,7 @@ flowchart LR
 |---|---|
 | **RoboMate AI Search** | Ask questions across the data of every assessment. |
 | **RoboMate AI** | AI assistant with formatted answers. Attach Excel, Word, PowerPoint, PDF, zip, images or text up to 25 MB. |
-| **Digital Assistant** | Instant answers from more than 6,600 entries generated from the console (every deployment, report, cost view and FinOps action, licensing and troubleshooting), with word completion as you type. |
+| **Digital Assistant** | Instant answers from more than 9,100 entries generated from the console: every deployment (requirements, parameters, outcome, use cases) and every report (when to use it), cost views, FinOps actions, Deployment Assist, licensing and troubleshooting, with buttons that open the deployment or report in the console, and word completion as you type. |
 | **RoboMate Shell** | Live PowerShell output of every job and deployment. |
 | **13 Network Tools** | Internet speed, IP geolocation, DNS lookup, trace route, ping, port check, SSL/TLS certificate, HTTP headers, WHOIS, public IP, MTU finder, mail DNS check and subnet calculator. |
 | **Certificate Tools** | PFX, PEM, CRT, CER and KEY conversions and self-signed certificates. |
@@ -1040,6 +1074,11 @@ Updates are checked when RoboMate Console starts and every hour. Required update
 
 | Area | What changed |
 |---|---|
+| **Deployment Assist** *(25 Nov)* | Default networks created when missing, Check deployment (size, image, security type, disk tier, quota, networks) before Run in all five clouds, compatible answers while the automation runs, cloud errors explained; Google Cloud templates pick Hyperdisk on Hyperdisk-only machine types. |
+| **Migrations** *(25 Nov)* | Opens on Projects; project Purpose (Migration or Disaster recovery); New project form never closes before it is saved; Install agent on new machines with password or SSH key; the appliance is deployed in the source cloud; a Migration-only license works on its own. |
+| **Digital Assistant** *(25 Nov)* | 9,100+ answers: every deployment and report with when to use it and buttons that open them in the console. |
+| **Faster assessments** *(25 Nov)* | AWS, OCI and Azure assessments collect with thread jobs in one process and a lighter progress tracker. |
+| **Original provider logos** *(25 Nov)* | Original logos on Cloud Providers, sign-in pages, consoles and the access confirmation, readable in light and dark themes. |
 | **RoboMate Migrations** *(24 Nov)* | RoboMate Operations, option 2: discover VMware, Hyper-V, physical machines and cloud VMs, install the agent, measure performance and workloads, map dependencies, size and price the target, then replicate through a cloud or on-premises appliance and run test failovers and cutover, from on-premises or any of five clouds to any of them. 17 migration reports. |
 | **Migration agent** *(24 Nov)* | Windows and every major Linux distribution; install from the console, the cloud run command or by hand; Prepare for the target cloud; live heartbeat, Rescan, automatic updates and low impact mode. |
 | **Cloud storage and appliances** *(24 Nov)* | Storage created and tested by RoboMate, Remove and Recreate; appliance deployment options, monitoring with gauges and Reconnect. |
@@ -1081,6 +1120,7 @@ Updates are checked when RoboMate Console starts and every hour. Required update
 - Compliance reports guide remediation and are not a certification.
 - Functionality depends on the installed version, license, enabled modules and supported provider capabilities.
 - RoboMate Migrations does not include failback to the source after cutover in this release.
+- Deployment Assist creates only the networks named in the form, and only when they do not exist; review the Check deployment results before you run an automation.
 - Screenshots in this README use demo data (Contoso, Fabrikam and similar fictitious names).
 
 ---
